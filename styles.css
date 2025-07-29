@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(/images/background.jpg);
+    background-size: cover;
+    padding-top: 5%;
+}
+
+form{
+    color: white;
+    text-align: center;
+    padding: 3%;
+}
+
+.userinput{
+    width: 230px;
+    height: 40px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.addbutton, .sortbutton{
+    width: 80px;
+    height: 40px;
+}
+
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    padding-bottom: 20px;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.9), 
+                    0 0 15px rgba(255, 255, 255, 0.8);
+}
+
+.taskItem{
+    background-color: rgb(245, 245, 245, 0.7);
+    width: 400px;
+    height: 60px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 20px;
+    padding: 5%;
+    margin-bottom: 10px;
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.textNode{
+    flex-grow: 1;
+    margin-left: 10px;
+    white-space: nowrap;
+    margin-right: 10px;
+}
+
+.checkbox{
+    margin-left: 0;
+    height: 25px;
+    width: 25px;
+}
+
+.deleteBtn{
+    height: 25px;
+    width: 65px;
+    margin-left: 10px;
+}
+
+.editBtn{
+    height: 25px;
+    width: 45px;
+    margin-left: 10px;
+}
+
